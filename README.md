@@ -5,7 +5,7 @@ It allows users to perform transactions like checking balance, depositing funds,
 The project uses HTML, CSS, and JavaScript to create an interactive user interface and transaction logic.
 
 Key Features:
-● PIN authentication system 
+● PIN authentication system. 
 ● Check balance functionality.
 ● Deposit and withdraw money with balance validation.
 ● Logout feature to reset the session.
