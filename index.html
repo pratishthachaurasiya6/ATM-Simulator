@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Simulator-Pratishtha</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="atm-container">
+        <h1>ATM Simulator</h1>
+
+        <div class="input-group">
+            Enter PIN:<input type="password" id="pinInput">
+            <button type="submit" onclick="checkPin()">Submit</button>
+        </div>
+        
+
+        <div class="atm-actions" id="atmActions">
+            <button onclick="checkBalance()">Check Balance</button>
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+        <p id="outputMessage"></p>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+
+</html>

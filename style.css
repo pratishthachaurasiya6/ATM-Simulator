@@ -1,0 +1,84 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.atm-container {
+    background-color: #3b3f45;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+input[type="password"] {
+    width: 65%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.atm-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.atm-actions button {
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.atm-actions button:hover {
+    background-color: #007bb5;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
